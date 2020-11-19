@@ -1,0 +1,21 @@
+{
+  "name": "radix-tree",
+  "version": "1.0.0",
+  "description": "Implementation of radix-tree, data-structure in js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "radix-tree",
+    "data-structures",
+    "radix-trie"
+  ],
+  "author": "Georgios Kampitakis",
+  "license": "MIT",
+  "devDependencies": {
+    "semistandard": "^16.0.0",
+    "snazzy": "^9.0.0",
+    "tap": "^14.11.0"
+  }
+}
