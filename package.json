@@ -4,7 +4,8 @@
   "description": "Implementation of radix-tree, data-structure in js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && tap -J lib/tests/*.test.js",
+    "lint": "semistandard | snazzy"
   },
   "keywords": [
     "radix-tree",
